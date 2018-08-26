@@ -1,0 +1,64 @@
+
+body{
+	/*background: black;*/
+	margin: 0;
+	padding: 0;
+	background:darkkhaki
+}
+h1{
+	text-align: center;
+}
+.container{
+	max-width:900px;
+	margin: 0 auto;
+	position: relative;
+}
+
+input[type=text]{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 3px;
+	background: aliceblue;
+	border: 0;
+	
+}
+
+button{
+	display: inline-block;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 0;
+	
+}
+button:hover{
+	background: darkgray;
+}
+.add-r input[type=text]{
+	position: relative;
+	float: left;
+	width: 72%;
+	
+}
+.add-p input{
+	position: relative;
+	float: left;
+	width: 15%;
+	margin: 2px;
+}
+.task-item{
+	padding: 10px;
+	margin-bottom:2px ;
+	background: aliceblue ;
+	color:black;
+	border-radius: 3px;
+	cursor: pointer;
+	
+}
+.task-list{
+	margin: 5px 0;
+	
+}
+.task-item:hover{
+	background: #ddd;
+}
